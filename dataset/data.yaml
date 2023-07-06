@@ -1,0 +1,6 @@
+names:
+- Fleg
+- Ulster Fleg
+nc: 2
+train: /Users/quinference/Dropbox/Research/computer_vision/dataset/train/images
+val: /Users/quinference/Dropbox/Research/computer_vision/dataset/valid/images

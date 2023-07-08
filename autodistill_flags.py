@@ -8,7 +8,9 @@ from autodistill_yolov8 import YOLOv8
 # the ontology dictionary has the format {caption: class}
 # where caption is the prompt sent to the base model, and class is the label that will
 # be saved for that caption in the generated annotations
-base_model = GroundedSAM(ontology=CaptionOntology({"a flag": "Fleg", "a flag with a red cross on a white background and a red hand":"Ulster Fleg"}))
+base_model = GroundedSAM(ontology=CaptionOntology({"a series of flags hanging together on a string or rope": "Bunting", 
+"a flag on a flagpole with a red cross and a blue x on a white background":"British Flag",
+"a flag on a flagpole with three equal panels which are coloured green, white and yellow":"Irish Flag"}))
 # label all images in a folder called `samples` and save the annotations to `dataset`
 base_model.label(
   input_folder="./sample",

@@ -1,6 +1,2 @@
-names:
-- Fleg
-- Ulster Fleg
-nc: 2
-train: /Users/quinference/Dropbox/Research/computer_vision/dataset/train/images
-val: /Users/quinference/Dropbox/Research/computer_vision/dataset/valid/images
+nc: 3
+names: [Bunting, British Flag, Irish Flag]
